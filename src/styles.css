@@ -1,0 +1,91 @@
+
+
+.root {
+	display: flex;
+	margin-top: 10vh; 
+	align-items: center;
+	justify-content: center;	
+}      
+
+.root-container {
+    width: 80vw;
+}
+
+/*------------------------------------*/
+.input-container  {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+}
+
+.input-title {  
+    display: flex;  
+    font-size: 24px;        
+}
+
+.input-wrapper {  
+    display: flex;  
+    flex: 1;
+    width: 100%; 
+}
+
+.input-value {  
+    display: flex;    
+    font-size: 24px;
+    background-color: beige;    
+    width: 100%;
+    border: 0;
+    padding: 1px 2px 1px 2px;
+}
+/*------------------------------------*/
+
+/*------------------------------------*/
+.result-container  {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+}
+
+.result-title {  
+    display: flex;  
+    font-size: 24px;        
+}
+
+.result-wrapper {  
+    display: flex;  
+    flex: 1;
+    width: 100%; 
+}
+
+.result-value {  
+    display: flex;    
+    font-size: 24px;
+    background-color: beige;    
+    width: 100%;
+    border: 0;
+    padding: 1px 2px 1px 2px;
+}
+/*------------------------------------*/
+
+
+.array-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+  }
+
+  .element {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    font-size: 36px;
+    align-items: center;
+	justify-content: center;
+    background-color: beige;
+  }
+  
+  .element:hover {      
+      background-color: rgb(198, 198, 191);
+  }
